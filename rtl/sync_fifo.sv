@@ -45,7 +45,7 @@ logic	[ADDR_WIDTH :0]		word_cnt;
 logic	[DATA_WIDTH-1:0]	ram_q;
 logic	[DATA_WIDTH-1:0]	data_ram;
 
-logic				ram_wren;
+// logic				ram_wren;
 logic				ram_rden;
 logic	[ADDR_WIDTH-1:0]	ram_wraddr;
 logic	[ADDR_WIDTH-1:0]	ram_rdaddr;
